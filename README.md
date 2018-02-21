@@ -1,10 +1,19 @@
 # docpress
 
-Publish your post more easily from google doc to wordpress.
+Publish your post more easily from google doc to wordpress. Conviently rename your images and wrap your code.
 
 ## Getting started
 
-Simply run docpress with python3:
+For example, here is a google doc we want to publish to wordpress:
+https://docs.google.com/document/d/1x8N8FZJWXaw38SI42eOcd_jRPOa2j3eXVW-9_aBiKME
+
+You should do these steps:
+
+1. Download doc in html format, you will get a bundled zip file which contains both html and its included images
+
+2. unzip
+
+3. Simply run docpress with python3:
 
 ```shell
 $ python3 docpress.py
