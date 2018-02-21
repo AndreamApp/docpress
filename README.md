@@ -42,7 +42,6 @@ then docpress would rename all the images both in html and files, suffix is opti
 then generate output file `SweetAlert2.html.out.html`
 4. **copy** this file content to wordpress, and **upload** your renamed images, jiu ok le.
 ## Configuration
-## Configuration
 
 ## Licensing
 
