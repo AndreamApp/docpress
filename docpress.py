@@ -57,10 +57,10 @@ while p:
 print('Rename images meaningfully:')
 # image rename
 today = datetime.date.today()
-urlPrefix = '%s//wp-content/uploads/%d/%d/' % (
+urlPrefix = '%s/wp-content/uploads/%d/%s/' % (
     'https://openingsource.org',
     today.year,
-    today.month
+    '0' * (2 - len(str(today.month))) + str(today.month)
 )
 for img in soup.find_all('img'):
     src = img['src']
