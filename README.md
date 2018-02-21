@@ -25,6 +25,9 @@ image3.png -> sweetalert2_5types
 image6.png -> sweetalert2_demo
 image2.gif -> sweetalert2_function
 image1.gif -> sweetalert2_steps
+Successfully saved at SweetAlert2.html.out.html'
+Please copy its content to your wordpress editor
+and upload renamed images
 ```
 
 Sequentially, docpress wrap `<pre>` tag around code block, which already marked by markdown syntax in google doc, for example:
@@ -36,7 +39,9 @@ Sequentially, docpress wrap `<pre>` tag around code block, which already marked 
     ```
 then docpress would rename all the images both in html and files, suffix is optional.
 
-then generate output file `SweetAlert2.html.out.html`, **copy** this file content to wordpress, and **upload** your renamed images, jiu ok le.
+then generate output file `SweetAlert2.html.out.html`
+4. **copy** this file content to wordpress, and **upload** your renamed images, jiu ok le.
+## Configuration
 ## Configuration
 
 ## Licensing

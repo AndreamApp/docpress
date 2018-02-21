@@ -83,3 +83,8 @@ outHtml = str(soup)
 file = codecs.open(path + '.out.html', 'w', 'utf-8')
 file.write(outHtml)
 file.close()
+
+print('Successfully saved at ' + path + '.out.html')
+print('Please copy its content to your wordpress editor')
+print('and upload renamed images')
+s
